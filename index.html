@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>''
 <body>
+    <script src="main.js"></script>
     <header>
         <h1>Sólidos e itens que temos em casa</h1>
     </header>
@@ -27,21 +28,23 @@
                 <p> O paralelepípedo é um sólido geométrico. O paralelepípedo é um sólido geométrico que possui três dimensões: altura, largura e comprimento. Esse prisma possui todas as suas faces no formato de um paralelogramo, sendo formado por 6 faces, 8 vértices e 12 arestas.
                     
                     A área total de um paralelepípedo é calculada por AT = 2ab + 2ac + 2bc.
-                    Geladeira Frost Free 375L Inox
+                    </p1>
+                    <p1>Geladeira Frost Free 375L Inox
+                   
 Especificações Técnicas
 Altura
 176.0cm
 Profundidade
-75.5cm
-Largura (cm)62,1
+75.5cm</p1>
+<p1>Largura (cm)62,1
 Peso
-58.0kg
-Tensão / Voltagem
+58.0kg</p1>
+<p1>Tensão / Voltagem
 127V ou 220V
 Consumo
 custo mensal de 0,81
 54.0kWh
-43,74 reais
+43,74 reais</p1>
 
 
 
@@ -49,19 +52,30 @@ volume 7,70
  área 5,31 metros quadrados
 
                     </p1>
-                    <img src="/home/aluno/Downloads/projetomat2-main/imagens/geladeira.jpeg">
+                    <img src="imagens/geladeira.jpeg">
+                    <h2>Paralelepípedo</h2>
+    <label for="paralelepipedoComprimento">Comprimento:</label>
+    <input type="number" id="paralelepipedoComprimento">
+    <label for="paralelepipedoLargura">Largura:</label>
+    <input type="number" id="paralelepipedoLargura">
+    <label for="paralelepipedoAltura">Altura:</label>
+    <input type="number" id="paralelepipedoAltura">
+    <button onclick="calcularVolumeParalelepipedo()">Calcular Volume</button>
+    <button onclick="calcularAreaParalelepipedo()">Calcular Área</button>
+    <p id="paralelepipedoResultado"></p>
+
                     <h2>tv:</h2>
                     <p2>O cubo é um sólido geométrico em que todas as faces são quadrados congruentes. Dessa maneira, ele é classificado como poliedro. Além disso, também pertence ao conjunto dos poliedros convexos e dos poliedros de Platão. A área de um poliedro e, consequentemente, do cubo é a soma das áreas dos polígonos que o formam.
                         O cubo é um sólido geométrico composto por 12 arestas, 8 vértices e 6 faces. Devido ao fato de ele possuir 6 faces, o cubo é conhecido também como hexaedro.
-                        O cubo é uma figura que faz parte da geometria espacial. ...
-                        Diagonal Lateral: d = a√2. ...
-                        Nesse caso, para calcular a área total do cubo, que possui 6 faces, utilizamos a seguinte fórmula:
-                        At = 6a2 ...
-                        At: área total.
-                        Smart TV LED HQ 32 Polegadas HD, Wi-Fi, HDMI 
+                        O cubo é uma figura que faz parte da geometria espacial.
+                       <p>Diagonal Lateral: d = a√2. Nesse caso, para calcular a área total do cubo, que possui 6 faces, utilizamos a seguinte fórmula:
+                        At = 6a2
+                        At: área total.</p> 
+                       
+                        <p>mart TV LED HQ 32 Polegadas HD, Wi-Fi, HDMI 
                         Altura com base
-47.0cm
-Largura
+47.0cm</p>
+<p>Largura
 73.5cm
 Profundidade com base
 KWH
@@ -71,45 +85,63 @@ custo mensal de 0,81
 3,88 reais
 
 volume
- área 
+ área </p>
 
 
 
                         </p2>
-                        <img src="/home/aluno/Downloads/projetomat2-main/imagens/yv.jpeg">
+                        <h2>Cubo</h2>
+                        <label for="cuboLado">Lado do Cubo:</label>
+                        <input type="number" id="cuboLado">
+                        <button onclick="calcularVolumeCubo()">Calcular Volume</button>
+                        <button onclick="calcularAreaCubo()">Calcular Área</button>
+                        <p id="cuboResultado"></p>
+                        <img src="imagens/yv.jpeg">
                         <h2>Caixa De Som:</h2>
                         <p3>
 
                             A fórmula do volume do cilindro é Vcilindro=Abase·h=πr2·h. A planificação do cilindro é formada pelos círculos das bases e pelo retângulo da superfície lateral. O cilindro possui dois tipos de secção: a transversal e a meridiana.
                             
                             O cilindro é um sólido geométrico. Possui duas bases circulares paralelas e uma área lateral que conecta essas bases. É um corpo redondo devido às suas bases circulares. São conhecidos dois tipos de cilindro, o cilindro reto e o cilindro oblíquo.
-                            O volume de um cilindro é π r² h, e a área da sua superfície é 2π r h + 2π r²
+                             </p3>
+                              <p3>O volume de um cilindro é π r² h, e a área da sua superfície é 2π r h + 2π r² </p3>
+                          
                             
                             </p3>
-                            <img src="/home/aluno/Downloads/projetomat2-main/imagens/caixinha.jpeg">
+                            <img src="imagens/caixinha.jpeg">
+                            <h2>Cilindro</h2>
+    <label for="cilindroRaio">Raio da Base:</label>
+    <input type="number" id="cilindroRaio">
+    <label for="cilindroAltura">Altura do Cilindro:</label>
+    <input type="number" id="cilindroAltura">
+    <button onclick="calcularVolumeCilindro()">Calcular Volume</button>
+    <button onclick="calcularAreaCilindro()">Calcular Área</button>
+    <p id="cilindroResultado"></p>
                             <h2>chuveiro:</h2>
-                            <p4>
+                                                           
+
+                                                        A proporção da circunferência ao diâmetro é Pi ou π, ou seja, circunferência/diâmetro = Pi; A circunferência de um círculo é igual a 2π*r ou 2π*raio. Ex: Se o raio de um círculo tem 3m, então C = 2π*3 = 6π metros. O diâmetro de um círculo é igual a circunferência sobre π.
                                 Um corpo redondo é um sólido geométrico com, pelo menos, uma superfície arredondada. Estes sólidos podem rolar sobre estas superfícies. São formas tridimensionais, ou seja, ocupam espaço, por isso, possuem volume.
                                 Este sólido geométrico é bem redondinho. Não tem faces planas: na verdade tem apenas uma única face curva e rola como um a bola de futebol. Isto porque também a bola de futebol é uma esfera.
-                                A área de um círculo é pi vezes o raio elevado ao quadrado (A = π r²).
-                                A proporção da circunferência ao diâmetro é Pi ou π, ou seja, circunferência/diâmetro = Pi; A circunferência de um círculo é igual a 2π*r ou 2π*raio. Ex: Se o raio de um círculo tem 3m, então C = 2π*3 = 6π metros. O diâmetro de um círculo é igual a circunferência sobre π.
-                                Chuveiro Elétrico Acqua Duo Ultra Preto/Cromado 220v/7800w
+                                A área de um círculo é pi vezes o raio elevado ao quadrado (A = π r²). </p3>
+                            <p3>  A proporção da circunferência ao diâmetro é Pi ou π, ou seja, circunferência/diâmetro = Pi; A circunferência de um círculo é igual a 2π*r ou 2π*raio. Ex: Se o raio de um círculo tem 3m, então C = 2π*3 = 6π metros. O diâmetro de um círculo é igual a circunferência sobre π.
+                                Chuveiro Elétrico Acqua Duo Ultra Preto/Cromado 220v/7800w</p3>
 
 
-Modelo
+                                <p3>Modelo
 Acqua Duo Ultra
 Altura
 26,10 cm
 Largura
-21,00 cm
-Profundidade
+21,00 cm </p3>
+<p3>Profundidade
 kwh
 gasto 0,81
 52,00 cm
 234
 63,18
 volume
- área 
+ área  </p3>
 
 
 
@@ -118,44 +150,17 @@ volume
 
 
                                 </p4>
-                                <img src="/home/aluno/Downloads/projetomat2-main/imagens/chuveiro.jpeg">
-                                <h2>funil:</h2>
-                                <p5>
-
-                                    A pirâmide é um sólido geométrico que possui a base formada por um polígono e faces laterais triangulares que se encontram em um único ponto, conhecido como vértice. A pirâmide é um sólido geométrico formado pela base e pelo vértice.
-                                    
-                                    Segundo as bases e o número arestas que formam as pirâmides, elas são classificadas em: Pirâmide Triangular: sua base é um triângulo, composta de quatro faces: três faces laterais e a face da base. Pirâmide Quadrangular: sua base é um quadrado, composta de cinco faces: quatro faces laterais e a face da base.
-                                    O volume da pirâmide é calculado pelo produto entre a área da base e a altura dividido por três. A base pode ser formada por qualquer polígono. O volume da pirâmide é calculado por meio do produto entre a área da base e a altura dividido por três.
-                                    
-                                    
-                                    
-                                    </p5>
-                                    <img src="/home/aluno/Downloads/projetomat2-main/imagens/funil.jpeg">
-                                    <h2>Máquina De Lavar:</h2>
-                                    <p6>
-
-                                        Lavadora WA8800B 23kg Preta 127V
-                                        
-                                        
-                                        Altura
-                                        121,00 cm
-                                        Largura
-                                        76,00 cm
-                                        Peso do Produto
-                                        Kwh
-                                        Valor por 0,81
-                                        66,00 Kg
-                                        2,4
-                                        1,95
-                                        volume
-                                         área 
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        </p6>
-                                        <img src="/home/aluno/Downloads/projetomat2-main/imagens/lava.jpeg">
+                                <img src="imagens/chuveiro.jpeg">
+                                <h2>Cone</h2>
+                                <label for="coneRaio">Raio da Base:</label>
+                                <input type="number" id="coneRaio">
+                                <label for="coneAltura">Altura do Cone:</label>
+                                <input type="number" id="coneAltura">
+                                <button onclick="calcularVolumeCone()">Calcular Volume</button>
+                                <button onclick="calcularAreaCone()">Calcular Área</button>
+                                <p id="coneResultado"></p>
+                                
+                                
                                         <h2>Microondas :</h2>
                                         <p7>
                                             
@@ -175,10 +180,26 @@ volume
                                              área 
                                             
                                             </p7>
-                                            <img src="/home/aluno/Downloads/projetomat2-main/imagens/microondas.png">
+                                            <img src="imagens/microondas.png">
+                                            <h2>Esfera</h2>
+                                            <label for="esferaRaio">Raio da Esfera:</label>
+                                            <input type="number" id="esferaRaio">
+                                            <button onclick="calcularVolumeEsfera()">Calcular Volume</button>
+                                            <button onclick="calcularAreaEsfera()">Calcular Área</button>
+                                            <p id="esferaResultado"></p>
+                                        
             <!-- More content goes here -->
         </article>
     </main>
+    <h1>Calculadora de Consumo de Energia Elétrica</h1>
+    <form>
+        <label>Potência (W): <input type="number" id="potencia"></label><br>
+        <label>Tempo de uso (horas por dia): <input type="number" id="tempo"></label><br>
+        <label>Período de uso (dias por mês): <input type="number" id="periodo"></label><br>
+        <label>Taxa de consumo (R$/kWh): <input type="number" id="taxa"></label><br>
+        <button type="button" onclick="calcularConsumo()">Calcular</button>
+    </form>
+    <div id="resultado"></div>
     <footer>
         &copy; Google
     </footer>
